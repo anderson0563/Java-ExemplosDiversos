@@ -23,7 +23,7 @@ public class Turma853 {
      */
     public static void main(String[] args) throws SQLException {
         //Conexao
-        Connection conexao = (Connection)DriverManager.getConnection("jdbc:mysql://127.0.0.1/turma853", 
+        Connection conexao = (Connection)DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/turma853", 
                 "galvaobueno", "ronaldinho");
         
         //Statement
